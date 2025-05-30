@@ -1,0 +1,233 @@
+software-standards/append_unmatched: true
+flatten_single_child_sections: true
+nav:
+  - Overview: index.md
+  - Handbook fundamentals:
+    - Development tools: handbook-fundamentals/development-tools.md
+    - Development principles: handbook-fundamentals/development-principles.md
+    - Testing: handbook-fundamentals/testing.md
+    - Security: handbook-fundamentals/security.md
+    - User interface and accessibility standards: handbook-fundamentals/ui-accessibility.md
+    - Writing and maintaining documentation: handbook-fundamentals/documentation.md
+
+  - Requesting a software subscription:
+    - Choosing the subscriptions you need: how-to-request-software-subscriptions/identify-subscription.md
+    - How to request a subscription: how-to-request-software-subscriptions/request-subscription.md
+    - How to cancel a subscription: how-to-request-software-subscriptions/cancelling-subscription.md
+    - Managing your subscriptions: how-to-request-software-subscriptions/managing-subscriptions.md    
+
+  - Agile delivery using scrum:
+    - Scrum: agile-delivery/scrum.md
+    - Cross-functional teams: agile-delivery/cross-functional-teams.md
+    - Agile Practices for requirements gathering: agile-delivery/agile-practices-requirements.md
+    - Planning your work in Azure DevOps: agile-delivery/agile-planning-azure-devops.md
+
+  - Using source control:
+    - Using our source control tools: using-source-control/use-source-control.md
+    - What to include in source control: using-source-control/include-in-source-control.md
+    - Use Git: using-source-control/6.3-use-git.md
+    - Establish a clear repo structure: using-source-control/repo-structure.md
+    - Commit changes early and often: using-source-control/commit-changes.md
+    - Write clear commit messages: using-source-control/commit-messages.md
+    - Review your code: using-source-control/review-code.md
+    - Follow a branching strategy: using-source-control/branching-strategy.md
+    - Adopt trunk-based development and continuous integration: using-source-control/trunk-based-development.md
+    - Implement a versioning strategy: using-source-control/versioning-strategy.md
+    - Keeping your repo tidy: using-source-control/keep-repo-organised.md
+    - Always deploy from source control: using-source-control/deploy-from-source-control.md
+    - Choosing and setting up a Git client: using-source-control/configure-git-clients.md
+
+  - How to organise your software solution:
+    - Organise your solution using our conventions: how-to-organise-your-software-solution/6.1-organise-solution.md
+    - Use physical folders: how-to-organise-your-software-solution/use-physical-folders.md
+    - Add a root folder for your solution: how-to-organise-your-software-solution/create-root-folder.md
+    - Add a README file: how-to-organise-your-software-solution/readme.md
+    - Add a .editorconfig file: how-to-organise-your-software-solution/editorconfig.md
+    - Add a source folder: how-to-organise-your-software-solution/create-source-folder.md
+    - Add sub-folders for dependency layers: how-to-organise-your-software-solution/subfolders-dependency-layers.md
+    - Use sub-folders within Visual Studio projects: how-to-organise-your-software-solution/subfolders-vs-projects.md
+    - Use existing conventions for project types: how-to-organise-your-software-solution/existing-project-conventions.md
+    - Add a specification folder: how-to-organise-your-software-solution/create-specs-folder.md
+    - Add a test folder: how-to-organise-your-software-solution/test-folder.md
+    - Add a documents folder: how-to-organise-your-software-solution/documents-folder.md
+    - Add a build folder: how-to-organise-your-software-solution/build-folder.md
+    - Add a scripts folder: how-to-organise-your-software-solution/scripts-folder.md
+    - Add a deploy folder: how-to-organise-your-software-solution/deploy-folder.md
+    - Add an examples folder: how-to-organise-your-software-solution/examples-folder.md
+
+  - General coding standards:
+    - Write clean code: general-coding-standards/write-clean-code.md
+    - Follow SOLID principles: general-coding-standards/solid-principles.md
+    - Follow Microsoft’s coding conventions: 
+      - Naming: general-coding-standards/microsoft-naming.md
+      - Layout: general-coding-standards/microsoft-layout.md
+      - Comments: general-coding-standards/microsoft-comments.md
+      - Variable and parameter names: general-coding-standards/microsoft-variable-names.md
+      - Conditional statements: general-coding-standards/microsoft-conditional-statements.md
+      - Exception handling: general-coding-standards/microsoft-exception-handling.md
+    - Check and analyse your code:
+      - Create a plan: general-coding-standards/code-analysis/create-a-plan.md
+      - Calculate code metrics: general-coding-standards/code-analysis/calculate-metrics.md
+      - Calculate cyccode coverage: general-coding-standards/code-analysis/calculate-coverage.md
+      - Check for style and quality: general-coding-standards/code-analysis/check-style-quality.md
+      - Use code analysis tools: general-coding-standards/code-analysis/tools.md
+      - Configure code analysis rules: general-coding-standards/code-analysis/configure-rules.md
+      - Configure CI Pipelines: general-coding-standards/code-analysis/configure-ci-pipelines.md
+      - Check 3rd party packages: general-coding-standards/code-analysis/check-3rd-party.md
+      - Publish and review metrics: general-coding-standards/code-analysis/publish-review-metrics.md
+      - Quick recap: general-coding-standards/code-analysis/recap.md     
+     
+    - Examples:
+      - Unnecessary using statements: general-coding-standards/examples/unnecessary-using-statements.md
+      - Do not catch generic exceptions: general-coding-standards/examples/do-not-catch-generic-exception.md
+      - Dispose of objects properly: general-coding-standards/examples/dispose-objects-properly.md
+      - Use the null conditional operator: general-coding-standards/examples/use-null-conditional.md
+      - Make methods async: general-coding-standards/examples/make-methods-async.md
+
+  - T-SQL coding standards:
+    - Don't use T-SQL to execute business logic: software-standards/tsql-coding-standards/avoid-business-logic.md
+    - Using an ORM (Object Relational Mapper): software-standards/tsql-coding-standards/orm-rules.md
+    - Good habits: software-standards/tsql-coding-standards/good-practice.md
+    - Follow our table design rules - schemas and indexes: software-standards/tsql-coding-standards/table-design-schemas-indexes.md
+    - Follow our table rules - columns and datatypes: software-standards/tsql-coding-standards/columns-datatypes.md
+    - Apply code analysis rules: software-standards/tsql-coding-standards/code-analysis.md
+    - Using transactions: software-standards/tsql-coding-standards/transactions.md
+    - Using TOP (N) and ORDER BY: software-standards/tsql-coding-standards/top-orderby.md
+    - XML and JSON: software-standards/tsql-coding-standards/xml-json.md
+    - Date and time: software-standards/tsql-coding-standards/date-time.md
+    - Aliases: software-standards/tsql-coding-standards/aliases.md
+    - Views: software-standards/tsql-coding-standards/views.md
+    - Stored procedures: software-standards/tsql-coding-standards/stored-procedures.md
+    - Handling exceptions: software-standards/tsql-coding-standards/handling-exceptions.md
+    - Using User Defined Functions (UDF): software-standards/tsql-coding-standards/udfs.md
+    - Using Triggers: software-standards/tsql-coding-standards/triggers.md
+    - Permissions: software-standards/tsql-coding-standards/permissions.md
+    - Using SQL Server Agent: software-standards/tsql-coding-standards/sql-server-agent.md
+    - Follow our naming rules (see Table Design Rules too): software-standards/tsql-coding-standards/naming-rules.md
+    - Follow our code layout rules: software-standards/tsql-coding-standards/layout.md
+    - Commenting your code: software-standards/tsql-coding-standards/comments.md    
+  
+  - RESTful API design and build standards:
+    - API design:
+      - FHIR (Fast Healthcare Interoperability Standards): api/design/fhir.md
+      - Data classification: api/design/data-classification.md
+      - OpenAPI specification: api/design/openapi.md
+      - URL structure: api/design/url-structure.md
+      - How to retrieve related data: api/design/retrieving-related-data.md
+      - HTTP implementation: api/design/http.md
+      - Payload rules: api/design/payload-rules.md
+      - How to structure JSON responses: api/design/json-response.md
+      - Paging: api/design/paging.md
+      - Filtering: api/design/filtering.md
+      - Sorting: api/design/sorting.md
+      - handling compound collection operations: api/design/compound-operations.md
+      - Naming: api/design/naming.md
+      - Error reporting: api/design/error-reporting.md
+      - Performance and response times: api/design/performance.md
+      - Managing concurrency: api/design/concurrency.md
+      - Handling transient faults: api/design/transient-faults.md
+
+    - API security:
+      - API gateway pattern: api/security/api-gateway-pattern.md
+      - OWASP Top 10: api/security/owasp-top-10.md
+      - Managing secrets and certificates: api/security/secrets-and-certificates.md
+      - Encryption: api/security/encryption.md
+      - Security headers: api/security/security-headers.md
+      - HTTP message caching: api/security/http-caching.md
+      - Authentication and authorisation: api/security/auth.md
+
+    - API management:
+      - Generating an API proxy: api/management/generating-proxy.md
+      - Ping checks and service status: api/management/ping-status.md
+      - API lifecycle: api/management/lifecycle.md
+      - Deploying your API: api/management/deployment.md
+      - Versioning your API: api/management/versioning.md
+      - Cataloguing you API: api/management/cataloguing.md
+      - Audit, trace and monitoring your APIs: api/management/auditing-monitoring.md
+      - Rate limiting and throttling: api/management/rate-limiting.md
+
+    - API testing:
+      - Shift left: api/testing/shift-left.md
+      - Automate as much as you can: api/testing/automation.md
+      - Validate the OpenAPI specification: api/testing/validate-openapi.md
+      - Unit tests: api/testing/unit-tests.md
+      - Functional tests: api/testing/functional-tests.md
+      - Security tests: api/testing/security-tests.md
+      - Performance tests: api/testing/performance-tests.md
+      - Usability tests: api/testing/usability-tests.md
+      - Keep tests organised: api/testing/organise-tests.md
+      - Test summary report: api/testing/test-summary.md
+      - Test environment: api/testing/test-environment.md
+
+    - API tooling:
+      - Recommended tools: api/tooling/recommended-tools.md
+
+    - API docs:
+      - Writing style: api/documentation/writing-style.md
+      - OpenAPI specification: api/documentation/openapi-specification.md
+      - Document structure: api/documentation/structure.md
+      - Developer portal: api/documentation/developer-portal.md
+      - Software development kits (SDKs): api/documentation/sdks.md  
+
+    - API classifications:
+      - API type: api/classifications/api-type.md
+      - Data type: api/classifications/data-type.md
+      - Network routing type: api/classifications/network-routing.md
+      - Client type: api/classifications/client-type.md
+      - Client authentication level: api/classifications/client-authentication.md
+      - Service level: api/classifications/service-level.md
+      - Lifecycle status: api/classifications/lifecycle-status.md  
+
+  - Azure DevOps:
+    - Azure DevOps basics: azure-devops-handbook/azure-devops-basics.md
+    - Joining an existing project: azure-devops-handbook/joining-an-existing-project.md
+    - Creating a new project: azure-devops-handbook/creating-a-new-project.md
+    - Adding ysers and teams: azure-devops-handbook/adding-users-and-teams.md
+    - Planning and tracking work with Azure Boards: azure-devops-handbook/planning-and-tracking-work.md
+    - Managing source code with Azure Repos: azure-devops-handbook/managing-source-code.md
+    - Automating builds and deployments with Azure Pipelines: azure-devops-handbook/automating-builds.md
+    - Configuring agents for Azure Pipelines: azure-devops-handbook/configuring-agents.md
+    - Sharing code with Azure Artifacts: azure-devops-handbook/sharing-code.md
+    - Defining and running test cases with Azure Test Plans: azure-devops-handbook/running-test-cases.md
+    - Using Wikis: azure-devops-handbook/using-wikis.md
+    - Creating and managing dashboards: azure-devops-handbook/managing-dashboards.md
+    - Managing user settings: azure-devops-handbook/managing-user-settings.md
+    - Project housekeeping tasks: azure-devops-handbook/project-housekeeping.md
+    - Securing your projects: azure-devops-handbook/securing-projects.md
+    - Managing costs: azure-devops-handbook/managing-costs.md
+    - Support and troubleshooting: azure-devops-handbook/support-troubleshooting.md
+    - Enabling GitHub Advanced Security: azure-devops-handbook/github-advanced-security.md
+    - Connecting Defender for cloud devOps: azure-devops-handbook/connecting-defender.md
+    - Using Azure DevOps extensions: azure-devops-handbook/using-extensions.md
+    - Data privacy and availability: azure-devops-handbook/data-privacy.md
+    
+
+  - Writing a Test Summary report:
+    - When to create a Test Summary Report: test-summary-reports/when-to-create.md
+    - Characteristics of a good Test Summary Report: test-summary-reports/characteristics.md
+    - Cover page: test-summary-reports/cover-page.md
+    - Table of contents: test-summary-reports/table-of-contents.md
+    - Document location: test-summary-reports/document-location.md
+    - Relevant documents: test-summary-reports/relevant-documents.md
+    - Version control: test-summary-reports/version-control.md
+    - Reviews and approvals: test-summary-reports/reviews-and-approvals.md
+    - Summary of testing: test-summary-reports/summary-of-testing.md
+    - Test metrics: test-summary-reports/test-metrics.md
+    - Further metrics: test-summary-reports/further-metrics.md
+    - Filename: test-summary-reports/filename.md
+    - Layout and formatting: test-summary-reports/layout-formatting.md
+    - Example reports: test-summary-reports/example-reports.md
+
+  - Testing for lost updates:
+    - Overview: testing-lost-updates/index.md
+    - What’s a lost update: testing-lost-updates/whats-a-lost-update.md
+    - How do you test for lost updates: testing-lost-updates/how-to-test.md
+    - Follow a risk based approach: testing-lost-updates/risk-based-approach.md
+    - Concurrency controls: testing-lost-updates/concurrency-controls.md
+    - Locking: testing-lost-updates/locking.md
+    - No locking, but validation checks: testing-lost-updates/no-locking.md
+    - No concurrency controls: testing-lost-updates/no-concurrency.md
+    - Write and execute tests: testing-lost-updates/write-execute-tests.md
+    - Example test scripts: testing-lost-updates/example-test-scripts.md
+    
+  - Checklists: checklists.md  

@@ -1,0 +1,28 @@
+{
+    "version": "0.2",
+    "language": "en,en-GB",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "Ardoq",
+        "CISO",
+        "daemonless",
+        "DHCW",
+        "Fargate",
+        "Fiori",
+        "IGDC",
+        "kickstarting",
+        "Knative",
+        "metamodel",
+        "mkdocs",
+        "Mkdoc",
+        "NCSC",
+        "Pulumi",
+        "NCSC",
+        "shadcn",
+        "UKNCSC"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
